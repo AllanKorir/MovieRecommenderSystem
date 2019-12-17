@@ -6,9 +6,7 @@ text = ["London Paris London", "Paris Paris London"]
 # count number of features(words) for every entry in the text array
 cv = CountVectorizer()
 
-
 count_matrix = cv.fit_transform(text)
-
 
 print(count_matrix.toarray())
 
